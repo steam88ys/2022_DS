@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-enum bool{ false, true };
+enum bool{ false, true }; 
 
 int main(void) {
 	int n = 31, i, j, k = 1, cnt = 0;
