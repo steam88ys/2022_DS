@@ -2,7 +2,7 @@
 #include <time.h>
 #include <math.h>
 
-void main(void) {
+void main(void) { 
 	int i, j, k = 0, d;
 	int a = 100000000, b = 100001000;
 	clock_t t1, t2;
