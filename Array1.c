@@ -15,12 +15,16 @@ int main(void)
 	printf("삽인문자 : ");
 	scanf_s("%c", &value, 1);	// 문자 하나 입력
 
-	i = SIZE - 1;
+	/*i = SIZE - 1;
 
 	while (i > index) {
 		a[i] = a[i - 1];
 		i--;
+	}*/
+	for (i = SIZE-1; i>index; i--) {
+		a[i] = a[i - 1];
 	}
+
 	a[index] = value;
 	a[SIZE - 1] = '\0';
 
